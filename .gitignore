@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MasterEngine/.vs/MasterEngine
+/.vs/MasterEngine/v17
+/.vs
