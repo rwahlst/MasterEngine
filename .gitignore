@@ -2,7 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/MasterEngine/.vs/MasterEngine
 /.vs/MasterEngine/v17
 /.vs
+/MasterEngine/.vs/MasterEngine/FileContentIndex
+/MasterEngine/.vs/MasterEngine/v17/ipch/AutoPCH
+/MasterEngine/.vs/MasterEngine/v17
+/MasterEngine/x64/Debug/MasterEngine.tlog
 /MasterEngine/x64/Debug
