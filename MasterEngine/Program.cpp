@@ -18,12 +18,12 @@ void ProcessInput(GLFWwindow* window)
 #pragma endregion
 
 
-Program::Program() 
+AEngine::Program::Program()
 {
 	this->pResult = 0;
 }
 
-int Program::InitProgram() 
+int AEngine::Program::InitProgram() 
 {
 	this->pResult = InitGlfw();
 	if (this->pResult != 0) 
@@ -49,7 +49,7 @@ int Program::InitProgram()
 	return this->pResult;
 }
 
-int Program::InitWindow() 
+int AEngine::Program::InitWindow() 
 {
 	this->window = glfwCreateWindow(WIN_WIDTH, WIN_HEIGHT, "MasterEngine 0.0.26", NULL, NULL);
 	if (this->window == NULL) 
@@ -62,7 +62,7 @@ int Program::InitWindow()
 	return 0;
 }
 
-int Program::InitGlad() 
+int AEngine::Program::InitGlad() 
 {
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) 
 	{
@@ -74,7 +74,7 @@ int Program::InitGlad()
 	glfwSetFramebufferSizeCallback(this->window, FrameBufferSizeCallBack);
 }
 
-int Program::InitGlfw() 
+int AEngine::Program::InitGlfw() 
 {
 	glfwInit();
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -86,7 +86,7 @@ int Program::InitGlfw()
 	return 0;
 }
 
-int Program::Begin() 
+int AEngine::Program::Begin() 
 {
 	// Define the triangle's vertices
 	float triangle[] = { 
@@ -178,6 +178,6 @@ int Program::Begin()
 
 int main() 
 {
-	Program p = Program();
+	AEngine::Program p = AEngine::Program();
 	return p.InitProgram();
 }
