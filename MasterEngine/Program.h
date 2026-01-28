@@ -2,6 +2,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include "Logger.h"
 
 #define WIN_WIDTH 800
 #define WIN_HEIGHT 600
@@ -20,6 +21,7 @@ namespace AEngine
 		int InitWindow();
 		int InitGlad();
 		int Begin();
+		Logger<Program> _logger = Logger<Program>();
 		GLFWwindow* window;
 		int pResult = 0;
 		const char* vertexShaderSource = "#version 330 core\n"

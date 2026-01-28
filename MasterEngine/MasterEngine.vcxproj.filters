@@ -32,5 +32,8 @@
     <ClInclude Include="Program.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
