@@ -1,8 +1,11 @@
-# MasterEngine | One Engine to Rule Them All | One Engine to Bind Them
+# MasterEngine
+# One Engine to Rule Them All | One Engine to Bind Them
+
+---
 
 ## About
 
-### A C++ Game Engine made possible with [OpenGL](https://www.opengl.org/)
+### Wahlstrom Technologies Open Source C++ Game Engine made possible with [OpenGL](https://www.opengl.org/)
 
 ### Anticipated Features
 1. Core Functionality
