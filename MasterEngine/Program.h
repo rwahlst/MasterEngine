@@ -1,3 +1,9 @@
+/// File Name: Program.h
+/// Summary: Program definitions
+/// Created: 1/16/2026
+/// Owner: Wahlstrom Technologies LLC
+/// Author: Axel Wahlstrom
+
 #pragma once
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>

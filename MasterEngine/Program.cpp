@@ -1,3 +1,9 @@
+/// File Name: Program.cpp
+/// Summary: Program.h implementations - main entry point to Master Engine
+/// Created: 1/16/2026
+/// Owner: Wahlstrom Technologies LLC
+/// Author: Axel Wahlstrom
+
 #include "Program.h"
 
 #pragma region ResizeEvent
