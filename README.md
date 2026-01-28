@@ -23,3 +23,4 @@
 | Document Version | Update Author  | Last Updated Date |
 | ---------------- | -------------- | ----------------- |
 | V1               | Axel Wahlstrom | Jan. 27 2026      |
+| V1               | Axel Wahlstrom | Jan. 28 2026      |
